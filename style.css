@@ -163,3 +163,92 @@ footer p {
     margin: 30px;
     text-align: center;
 }
+
+
+/*---feedback---*/
+
+.feedback-phrase {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.feedback-phrase h1 {
+    color: #ffffff;
+    font-size: 90px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.feedback-phrase p {
+    color: #ffffff;
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+
+form {
+    margin-bottom: 22px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+#feedback {
+    width: 60%;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.feedback-group {
+    width: 100%;
+}
+
+.feedback-group label {
+    color: #111;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.feedback-group input,
+select,
+textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #111;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+}
+
+.feedback-group input,
+.feedback-group textarea {
+    width: 90%;
+    height: 40px;
+}
+
+.feedback-group select {
+    height: 40px;
+    width: 92%;
+}
+
+.feedback-group textarea {
+    height: 78px;
+}
+
+.btn-default {
+    border: 0;
+    color: #ffffff;
+    background: #648880;
+    padding: 11px 30px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.btn-default:hover {
+    background: #77a198;
+}
